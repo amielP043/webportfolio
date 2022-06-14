@@ -24,8 +24,8 @@
 }
 
 #about-me-container {
-	background-color: #3E5779;
 	color: #E8EEE7;
+	background-image: url(./img/aboutme.png) ;
 }
 
 #about-me-img {
