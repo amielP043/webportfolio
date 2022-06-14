@@ -1,0 +1,43 @@
+/*CSS Reset*/
+/**{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+
+
+/*Fonts to use*/
+
+	/*font-family: "Libre Baskerville", sans-serif;
+	font-family: "Patua One", sans-serif;*/
+#nav-bar{
+	background-color: #E8EEE7;
+	color: #182A3A;
+	font-family: "Patua One", sans-serif;
+	font-size: 1.2rem;
+}
+
+#about-me {
+	font-family: "Patua One", sans-serif;
+	font-size: 65px;
+	padding-top: 1rem;
+}
+
+#about-me-container {
+	background-color: #3E5779;
+	color: #E8EEE7;
+}
+
+#about-me-img {
+	display: inline-flex;
+
+	width: 375px;
+	height: 575px;
+	min-width: 200px;
+	min-height: 350px;
+}
+
+#project-container {
+	background-color: #182A3A;
+	color: #E8EEE7;
+}
