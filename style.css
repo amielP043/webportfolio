@@ -10,6 +10,9 @@
 
 	/*font-family: "Libre Baskerville", sans-serif;
 	font-family: "Patua One", sans-serif;*/
+body {
+	font-family: "Tai Heritage Pro" sans-serif;
+}
 #nav-bar{
 	background-color: #B6CCDA;
 	font-family: "Patua One", sans-serif;
