@@ -10,9 +10,13 @@
 
 	/*font-family: "Libre Baskerville", sans-serif;
 	font-family: "Patua One", sans-serif;*/
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: "Montserrat", sans-serif;
 }
+
 #nav-bar{
 	background-color: #B6CCDA;
 	font-family: "Patua One", sans-serif;
@@ -102,11 +106,12 @@ body {
 .system-card {
 	color: #C6EEF4;
 	background-color: rgba(0, 0, 0, .5);
+	border-radius: 35px;
 }
 
 #footer-id {
 	text-align: center;
-	padding: 2rem;
+	padding: 1.5rem;
 	background-image: linear-gradient(to bottom, #acbac6, #a1b5c4, #96b0c1, #8aabbf, #7da6bc, #6f9bb2, #6190a9, #52859f, #41728d, #305f7c, #1f4d6a, #0c3b59);
 }
 .footer-logo {
@@ -116,4 +121,9 @@ body {
 #email-logo {
 	width: 25px;
 	height: 20px;
+}
+
+#modal-form {
+	color: #C4D7DA;
+	background-color: #1A3D64;
 }
