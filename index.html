@@ -18,21 +18,21 @@
 <body>
 
 	<!-- Navbar Start -->
-	<nav id="nav-bar" class="navbar navbar-expand-lg p-2 sticky-top">
+	<nav id="nav-bar" class="navbar navbar-expand-lg p-0 sticky-top">
 		<!-- <a class="navbar-brand" href="#"></a> -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
+	    <span class="p-1">MENU</span>
 	  </button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto p-auto align-items-center">
+			<ul class="navbar-nav ml-auto p-auto align-items-center p-2">
 				<li class="nav-item active">
-					<a class="nav-link" href="#about-me">About Me</a> <span class="sr-only">(current)</span>
+					<a class="nav-link link-nav p-2 nav-button m-2" href="#about-me-container">About Me</a> <span class="sr-only">(current)</span>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#project-container">Projects</a>
+					<a class="nav-link link-nav p-2 nav-button m-2 mx-4" href="#project-container">Projects</a>
 				</li>
 				<li class="nav-item">					
-					<a class="nav-link" href="#">Contact Me</a>
+					<a class="nav-link link-nav p-2 nav-button m-2" href="#footer-id">Contact Me</a>
 				</li>
 			</ul>
 		</div>
@@ -41,18 +41,22 @@
 	<!-- Navbar End -->
 
 	<!-- About Me Section Start -->
-	<div id="about-me-container" class="text-center container-fluid m-vh-100">
+	<div id="about-me-container" class="text-center container-fluid justify-content-center m-vh-100">
 		<div class="row p-3">
-			<div class="d-inline-block offset-md-2 offset-lg-3 col-5 col-lg-4 col-12 justify-content-center p-3">
+			<div class="d-inline-block offset-lg-3 offset-md-1 col-6 col-sm-5 col-md-12 col-lg-5 col-12 justify-content-center p-3 ml-sm-3 ml-lg-auto">
 				<div>
 					<h1 id="about-me">About Me</h1>
-					<h3 class="py-4">Hi! I'm Amiel Paolo Oliva a Programmer and a Fullstack Web Developer</h3>
-					<p class="text-justify">	My childhood dream is to become a Pilot and because of that I got introduced on coding. I have a Bachelor's Degree in Aviation Information Technology where I learn more about aircrafts for my childhood dream and also learn coding.</p>
-					<p class="text-justify">	In my free time when I'm not coding you will see me watching movies or anime, or playing online games where I enhance my logical thinking skills</p>
+					<div id="about-me-content">
+						<h3 class="py-4">Hi! I'm Amiel Paolo Oliva a Programmer, and a Full-stack Developer.</h3>
+						<p class="text-justify">	My childhood dream is to become a Pilot and because of that I got introduced on coding. I have a Bachelor's Degree in Aviation Information Technology where I learned more about aircrafts for my childhood dream and learn coding as well.</p>
+						<p class="text-justify">	In my free time when I'm not coding you will see me watching movies or anime, or playing online games where I enhance my logical thinking skills.</p>
+						<p class="text-justify">	My Career Objective is to be exposed in a working environment which allows me to enhance my knowledge and skill as a Full-stack Developer and use it in a day to day life to creates and develop an exeptional,  high-quality websites and applications.</p>
+
+					</div>
 				</div>
 			</div>
-			<div class="d-sm-flex d-none col-4 col-lg-5 p-3">
-				<img id="about-me-img" src="https://images.pexels.com/photos/6018290/pexels-photo-6018290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded">
+			<div class="d-sm-flex d-none d-md-block col-md-12 col-2 col-lg-4 p-3 mr-auto mr-lg-1">
+				<img id="about-me-img" src="https://images.pexels.com/photos/6018290/pexels-photo-6018290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded p-2 img-fluid">
 			</div>
 		</div>
 	</div>
@@ -60,11 +64,11 @@
 
 	<!-- Project Section Start -->
 	<div id="project-container" class="text-center container-fluid m-vh-100">
-		<h1 class="p-3">My Proejcts</h1>
-		<div>
-			<div class="p-md-5 d-lg-flex justify-content-center">
-				<!-- Html Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+		<h1 class="p-3">My Projects</h1>
+		<div class="row">
+			<div class="p-md-5 mb-3 d-lg-flex justify-content-center">
+				<!-- Project 1 Card Start -->
+				<div class="card bg-project col-xl-3 mb-5 mb-xl-0">
 					<div class="card-body">
 						<img src="https://images.pexels.com/photos/6633920/pexels-photo-6633920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded">
 						<h5 class="card-title mt-3">Project 1</h5>
@@ -73,10 +77,10 @@
 						<a href="#" class="card-link">Link to Project</a>
 					</div>
 				</div>
-				<!-- Html Card End -->
+				<!-- Project 1 Card End -->
 
-				<!-- Bootstrap Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+				<!-- Project 2 Card Start -->
+				<div class="card bg-project col-xl-3 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
 					<div class="card-body">
 						<img src="https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded">
 						<h5 class="card-title mt-3">Project 2</h5>
@@ -85,10 +89,10 @@
 						<a href="#" class="card-link">Link to Project</a>
 					</div>
 				</div>
-				<!-- Bootstrap Card End -->	
+				<!-- Project 2 Card End -->	
 
-				<!-- Node JS Server Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+				<!-- Project 3 Card Start -->
+				<div class="card bg-project col-xl-3 mb-5 mb-xl-0">
 					<div class="card-body">
 						<img src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1600" class="img-fluid rounded">
 						<h5 class="card-title mt-3">Project 3</h5>
@@ -98,16 +102,134 @@
 					</div>
 				</div>
 
-				<!-- Node JS Server Card End -->
+				<!-- Project 3 Card End -->
 			</div>
 
 		</div>
+
+		<!-- Other Project Section Start -->
+		<div class="d-md-flex justify-content-center align-items-center">
+			<h1 class="d-inline-block d-sm-block">.Net Application Projects</h1>
+			<img id="vb-logo" src="./img/vblogo.png">
+			<img id="workbench-logo" src="./img/workbenchlogo.png">
+		</div>	
+		<div class="row d-lg-flex mt-md-5 p-3 mx-auto my-3">
+			<div id="other-project-container" class="offset-3 col-7 container-fluid mx-auto">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div id="student-system-card" class="carousel-item active">
+							<img src="https://images.pexels.com/photos/6140697/pexels-photo-6140697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+							<div class="carousel-caption d-md-block">
+								<h5 class="text-dark">Student Information System</h5>
+								<p>This application will store students data that allows the administrators to easily track their informations.</p>
+							</div>
+						</div>
+						<div id="dental-system-card" class="carousel-item">
+							<img src="https://images.pexels.com/photos/6501862/pexels-photo-6501862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+							<div class="carousel-caption d-md-block">
+								<h5 class="text-dark">Dental Clinic Management System</h5>
+								<p>This application is design to manange patients information that easily tracks their dental records.</p>
+							</div>
+						</div>
+						<div id="library-system-card" class="carousel-item">
+							<img src="https://images.pexels.com/photos/1370298/pexels-photo-1370298.jpeg?auto=compress&cs=tinysrgb&w=1600" class="d-block w-100" alt="...">
+							<div class="carousel-caption d-md-block">
+								<h5 class="text-dark">Library Management System</h5>
+								<p>This application will allow the administrator to easily track the books inventory and also store borrower's personal information.</p>
+							</div>
+						</div>
+						<div id="manpower-system-card" class="carousel-item">
+							<img src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+							<div class="carousel-caption d-md-block">
+								<h5 class="text-dark">Manpower Requirement System</h5>
+								<p>This application will help the administrator to easily compute the required manpower for a specific work and workload.</p>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- Other Project Section End -->
 		
 
 	</div>
 	<!-- Project Section End -->
 
+	<!-- Footer Start -->
+	<footer id="footer-id">
+		<div>
+			<a href="https://www.facebook.com/amiel.oliva"><img class="footer-logo" src="./img/fblogo.png"></a>
+			<a class="px-2" href="https://gitlab.com/amieloliva043"><img class="footer-logo" src="./img/gitlablogo.png"></a>
+			<a href="https://github.com/amielP043"><img class="footer-logo" src="./img/githublogo.png"></a>			
+		</div>
+		<div class="p-2">
+			<img id="email-logo" src="./img/emaillogo.png" class="d-inline pr-1">
+			<span>amieloliva043@gmail.com</span>
+			<span>|</span>
+			<span>
+			<!-- Button trigger modal -->
+				<button type="submit" class="btn text-center" data-toggle="modal" data-target="#staticBackdrop">
+					Contact Me
+				</button>
 
+				<!-- Modal Start -->
+				<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title text-dark" id="staticBackdropLabel">Contact Me</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<div class="text-dark">
+									<form class="bg-dark text-light">
+									<div class="form-group">
+									<label for="full-name">Name</label>
+									<input type="text" class="form-control" id="full-name" placeholder="Your Name">
+								</div>
+								<div class="form-group">
+									<label for="email-address">Email address</label>
+									<input type="email" class="form-control" id="email-address" placeholder="name@example.com">
+								</div>
+								<div class="form-group">
+									<label for="contact-number">Contact Number</label>
+									<input type="Number" class="form-control" id="contact-number" placeholder="+63 900 000 0000">
+								</div>
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea class="form-control" rows="5" id="message"></textarea>
+								</div>
+							</form>
+							</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Send</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal End -->
+			</span>
+		</div>
+	</footer>
+	<!-- Footer End -->
 
 
 

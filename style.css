@@ -11,8 +11,7 @@
 	/*font-family: "Libre Baskerville", sans-serif;
 	font-family: "Patua One", sans-serif;*/
 #nav-bar{
-	background-color: #E8EEE7;
-	color: #182A3A;
+	background-color: #B6CCDA;
 	font-family: "Patua One", sans-serif;
 	font-size: 1.2rem;
 }
@@ -21,23 +20,88 @@
 	font-family: "Patua One", sans-serif;
 	font-size: 65px;
 	padding-top: 1rem;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 55px;
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+	
+}
+
+#about-me-content {
+	padding: 1rem;
+	border-radius: 35px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #about-me-container {
 	color: #E8EEE7;
-	background-image: url(./img/aboutme.png) ;
+	background-image: linear-gradient(to right top, #9aaab7, #8397a5, #6c8494, #557283, #3e6072, #2d546a, #1a4861, #003c59, #003256, #002751, #001c4b, #0a0f42);
 }
 
 #about-me-img {
-	display: inline-flex;
+	display:inline-flex;
 
 	width: 375px;
-	height: 575px;
-	min-width: 200px;
-	min-height: 350px;
+	height: 575px; 
+	min-width: 255px;
+	min-height: 300px;
+	box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 #project-container {
-	background-color: #182A3A;
+	background-color: #1D2637;
 	color: #E8EEE7;
+	padding: 2rem;
+	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;*/
+	/*background-image: linear-gradient(to left bottom, #cad9eb, #a7b8cf, #8698b4, #66799a, #485b80, #384c74, #283d68, #172e5c, #11285a, #0c2159, #091a56, #081253);*/
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.link-nav {
+	color: #112A46;
+}
+
+.link-nav:hover {
+	background-color: #d9dace;
+}
+
+.bg-project {
+	/*background: #61656b;*/
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+	background-image: linear-gradient(to right top, #8b9cb7, #7787a3, #64728f, #525e7b, #404b68, #364160, #2c3757, #222e4f, #1c2a4f, #16264f, #0f234e, #061f4e);
+}
+
+.nav-button {
+	box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+	border-radius: 25px;
+}
+
+#other-project-container {
+	width: 800px;
+	height: 40%;
+	min-width: 300px;
+	min-height: 200px;
+}
+
+#vb-logo {
+	width: 60px;
+	height: 60px;
+}
+
+#workbench-logo {
+	width: 60px;
+	height: 60px;
+}
+
+#footer-id {
+	text-align: center;
+	padding: 2rem;
+	background-image: linear-gradient(to bottom, #acbac6, #a1b5c4, #96b0c1, #8aabbf, #7da6bc, #6f9bb2, #6190a9, #52859f, #41728d, #305f7c, #1f4d6a, #0c3b59);
+}
+.footer-logo {
+	width: 35px;
+	height: 35px;
+}
+#email-logo {
+	width: 25px;
+	height: 20px;
 }
