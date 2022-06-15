@@ -95,6 +95,15 @@ body {
 	height: 60px;
 }
 
+.card-color{
+	color: #26AEC2;
+}
+
+.system-card {
+	color: #C6EEF4;
+	background-color: rgba(0, 0, 0, .5);
+}
+
 #footer-id {
 	text-align: center;
 	padding: 2rem;
